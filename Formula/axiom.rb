@@ -9,23 +9,23 @@ class Axiom < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/dragoscv/axiom/releases/download/v2.4.0/axiom-darwin-arm64"
-      sha256 "6998ef6b1a60e3ddf85c14822b5480b617c0393e72790bdfed9eb6f0eb489e2c"
+      url "https://github.com/dragoscv/axiom/releases/download/v2.4.1/axiom-darwin-arm64"
+      sha256 "10d8058a2e9d6333e2ff2186002f58bcdf2cfd718ec83626eb0dd7f4ec0e2eda"
     end
     on_intel do
-      url "https://github.com/dragoscv/axiom/releases/download/v2.4.0/axiom-darwin-x64"
-      sha256 "f6bc823922ddcc6e571686d371c60d3a81d1f9decd2989809450764ff1345d0e"
+      url "https://github.com/dragoscv/axiom/releases/download/v2.4.1/axiom-darwin-x64"
+      sha256 "d51e2a2c315ed9d9139412f623ce358d8efabfac9233bd9722bcd7c109646e8a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dragoscv/axiom/releases/download/v2.4.0/axiom-linux-arm64"
-      sha256 "a18d76319553727db4e5fbd5cf4ece1ca5d44b370f191e2cb08ba3a148a7ecda"
+      url "https://github.com/dragoscv/axiom/releases/download/v2.4.1/axiom-linux-arm64"
+      sha256 "75c8b40000bbc21c707e7bb82592eb782357dd55609e2abde72ec6f060684717"
     end
     on_intel do
-      url "https://github.com/dragoscv/axiom/releases/download/v2.4.0/axiom-linux-x64"
-      sha256 "fe3e71aefd1880e09182864e5b899e7bacb8ba671fd6db189561e69818a07337"
+      url "https://github.com/dragoscv/axiom/releases/download/v2.4.1/axiom-linux-x64"
+      sha256 "c071351d5418e8a0337a7f4e5e679300998a8d8eca28109721b2d535a088fcb0"
     end
   end
 
