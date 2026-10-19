@@ -9,42 +9,42 @@ class Axiom < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/dragoscv/axiom/releases/download/v2.6.1/axiom-darwin-arm64"
-      sha256 "891992d5e73a4046b9933dc6c55105084ae7ce97027586230f89df8ea2c7319e"
+      url "https://github.com/dragoscv/axiom/releases/download/v2.7.0/axiom-darwin-arm64"
+      sha256 "013c518f319d02c204812eb1a74fecec264131ee9ff759c03a3fd6c083a29aa3"
 
       resource "axiom-hook" do
-        url "https://github.com/dragoscv/axiom/releases/download/v2.6.1/axiom-hook-darwin-arm64"
-        sha256 "8c440b0a2b9cbf2f255774b171389056381501067d9a86176bb5bb4ef3c9ec6d"
+        url "https://github.com/dragoscv/axiom/releases/download/v2.7.0/axiom-hook-darwin-arm64"
+        sha256 "8520e487327bfe2d0e0e2ff8f3a801218a0e6c83b4b67dac4ee829df25d682f4"
       end
     end
     on_intel do
-      url "https://github.com/dragoscv/axiom/releases/download/v2.6.1/axiom-darwin-x64"
-      sha256 "d16d72e6e90791bb9246ab77467433cf92897108d39bb02ed3f8ff11dd9c93a8"
+      url "https://github.com/dragoscv/axiom/releases/download/v2.7.0/axiom-darwin-x64"
+      sha256 "111c77406f15b650c3efa7deda2bfeca7b861b87b788252173b4de02c33f9ef3"
 
       resource "axiom-hook" do
-        url "https://github.com/dragoscv/axiom/releases/download/v2.6.1/axiom-hook-darwin-x64"
-        sha256 "6dfe40f95a2e17d78358565a70a87727a92072642d05c4c0b7b3cc3654909f46"
+        url "https://github.com/dragoscv/axiom/releases/download/v2.7.0/axiom-hook-darwin-x64"
+        sha256 "a88caba37d2c400ffa064383f180fc288352ca00b0510d459ab52f1a1acd249d"
       end
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dragoscv/axiom/releases/download/v2.6.1/axiom-linux-arm64"
-      sha256 "bdaeb7cfd2f6468825706b575d345cd96fed0c45a99dcb5f04493ead2dd378aa"
+      url "https://github.com/dragoscv/axiom/releases/download/v2.7.0/axiom-linux-arm64"
+      sha256 "4204394bb906dace98300a38892e37461611b84dadc545c76cad757a276fbd0e"
 
       resource "axiom-hook" do
-        url "https://github.com/dragoscv/axiom/releases/download/v2.6.1/axiom-hook-linux-arm64"
-        sha256 "8275150fbc34a19886f7c7a2d0370519024a6eca4a18e0363f509271b568c2ce"
+        url "https://github.com/dragoscv/axiom/releases/download/v2.7.0/axiom-hook-linux-arm64"
+        sha256 "6fb43e5b035673d0f63616f7c2b3f0ae991ed33938320e66937c5b581b2e6781"
       end
     end
     on_intel do
-      url "https://github.com/dragoscv/axiom/releases/download/v2.6.1/axiom-linux-x64"
-      sha256 "3ff52a78dd9a6f75bde82f3ad63af21b9e687b5575cd622592e35e177df13372"
+      url "https://github.com/dragoscv/axiom/releases/download/v2.7.0/axiom-linux-x64"
+      sha256 "7d2cd94a3b128626b42c4c41704d4bdb3ea1c4513075bcad56c8e8223a1fb342"
 
       resource "axiom-hook" do
-        url "https://github.com/dragoscv/axiom/releases/download/v2.6.1/axiom-hook-linux-x64"
-        sha256 "76a8e00ece9af11e8696deb9c066a0413d53f6b5364480788600493e17deb8ba"
+        url "https://github.com/dragoscv/axiom/releases/download/v2.7.0/axiom-hook-linux-x64"
+        sha256 "ce03e789e088a4db8f37dce8e1f480c827c70a256f2f981e0462e26a10ac3281"
       end
     end
   end
